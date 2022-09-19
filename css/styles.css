@@ -106,9 +106,9 @@ border-bottom: 1px solid #ECECEC;
   text-decoration: none;
 }
 
-/* .site-nav .link:visited {
+.site-nav .link:visited {
   color: var(--primary-text-color);
-} */
+}
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -119,6 +119,7 @@ border-bottom: 1px solid #ECECEC;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  fill: #757575;
 }
 
 .site-nav .link:hover,
@@ -143,12 +144,14 @@ align-items: center;
 .contacts .link {
   display: flex;
   color: var(--secondary-text-color);
+  
   text-decoration: none;
   align-items: center;
 }
 
 .contact-icon {
  margin-right: 10px;
+ 
 }
  
 /* hero section */
